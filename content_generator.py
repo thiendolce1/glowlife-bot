@@ -12,8 +12,7 @@ logger = logging.getLogger(__name__)
 CHANNEL_NAME    = "GlowLife"
 CHANNEL_NICHE   = "sức khỏe, chăm sóc da và thời trang hiện đại"
 TARGET_AUDIENCE = "người Việt Nam từ 18-35 tuổi, chủ yếu nữ"
-MODEL           = "gemini-1.5-flash-8b"
-
+MODEL           = "gemini-2.0-flash"
 
 class TikTokContentGenerator:
     def __init__(self, api_key: str):
